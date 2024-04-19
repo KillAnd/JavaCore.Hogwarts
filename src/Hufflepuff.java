@@ -36,4 +36,13 @@ public class Hufflepuff extends Hogwarts{
 
 
     }
+
+    @Override
+    public String toString() {
+        return "Студент Пуффендуя " + getName() +
+                " трудолюбие " + hardworking +
+                ", верность " + loyal +
+                ", честность " + honest + ", умение трансгриссировать " + getTransgression() +
+                ", умение колдовать " + getWitchcraft();
+    }
 }

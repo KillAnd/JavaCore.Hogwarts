@@ -55,4 +55,15 @@ public class Slytherin extends Hogwarts {
     public void setThirstForPower(int thirstForPower) {
         this.thirstForPower = thirstForPower;
     }
+
+    @Override
+    public String toString() {
+        return "Студент Слизерена " + getName() +
+                " хитрость " + cunning +
+                ", решительность " + determination +
+                ", амбициозность " + ambition +
+                ", находчивость " + resourcefulness +
+                ", жажда власти " + thirstForPower + ", умение трансгриссировать " + getTransgression() +
+                ", умение колдовать " + getWitchcraft();
+    }
 }

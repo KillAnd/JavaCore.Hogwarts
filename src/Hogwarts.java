@@ -29,4 +29,5 @@ private int witchcraft;
     public void setWitchcraft(int witchcraft) {
         this.witchcraft = witchcraft;
     }
+
 }
