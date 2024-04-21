@@ -1,8 +1,8 @@
 public class Hogwarts {
 
 private final String name;
-private int transgression;
-private int witchcraft;
+private final int transgression;
+private final int witchcraft;
 
     public Hogwarts(String name, int transgression, int witchcraft) {
         this.name = name;
@@ -18,16 +18,9 @@ private int witchcraft;
         return transgression;
     }
 
-    public void setTransgression(int transgression) {
-        this.transgression = transgression;
-    }
 
     public int getWitchcraft() {
         return witchcraft;
-    }
-
-    public void setWitchcraft(int witchcraft) {
-        this.witchcraft = witchcraft;
     }
 
 }
